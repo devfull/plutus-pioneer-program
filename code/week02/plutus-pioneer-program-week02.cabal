@@ -17,7 +17,13 @@ library
                      , Week02.Gift
                      , Week02.IsData
                      , Week02.Solution1
+                     , Week02.Solution1Typed
+                     , Week02.Solution1Untyped
+                     , Week02.Solution1UntypedRaw
                      , Week02.Solution2
+                     , Week02.Solution2Typed
+                     , Week02.Solution2Untyped
+                     , Week02.Solution2UntypedRaw
                      , Week02.Typed
   build-depends:       aeson
                      , base ^>=4.14.1.0
