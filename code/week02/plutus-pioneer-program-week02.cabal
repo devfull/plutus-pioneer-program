@@ -17,10 +17,12 @@ library
                      , Week02.Gift
                      , Week02.IsData
                      , Week02.Solution1
+                     , Week02.Solution1Trace
                      , Week02.Solution1Typed
                      , Week02.Solution1Untyped
                      , Week02.Solution1UntypedRaw
                      , Week02.Solution2
+                     , Week02.Solution2Trace
                      , Week02.Solution2Typed
                      , Week02.Solution2Untyped
                      , Week02.Solution2UntypedRaw
@@ -28,9 +30,12 @@ library
   build-depends:       aeson
                      , base ^>=4.14.1.0
                      , containers
+                     , data-default
+                     , freer-extras
                      , playground-common
                      , plutus-contract
                      , plutus-ledger
+                     , plutus-ledger-api
                      , plutus-ledger-constraints
                      , plutus-tx-plugin
                      , plutus-tx
