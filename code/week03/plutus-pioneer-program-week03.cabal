@@ -15,7 +15,9 @@ library
                      , Week03.Homework2
                      , Week03.Parameterized
                      , Week03.Solution1
+                     , Week03.Solution1Trace
                      , Week03.Solution2
+                     , Week03.Solution2Trace
                      , Week03.Vesting
   build-depends:       aeson
                      , base ^>=4.14.1.0
@@ -23,6 +25,7 @@ library
                      , cardano-api
                      , containers
                      , data-default
+                     , freer-extras
                      , playground-common
                      , plutus-contract
                      , plutus-ledger
