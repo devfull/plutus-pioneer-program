@@ -16,8 +16,10 @@ library
                      , Week03.Parameterized
                      , Week03.Solution1
                      , Week03.Solution1Trace
+                     , Week03.Solution1Untyped
                      , Week03.Solution2
                      , Week03.Solution2Trace
+                     , Week03.Solution2Untyped
                      , Week03.Vesting
   build-depends:       aeson
                      , base ^>=4.14.1.0
