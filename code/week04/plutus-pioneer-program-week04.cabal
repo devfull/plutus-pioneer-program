@@ -16,6 +16,8 @@ library
                      , Week04.Maybe
                      , Week04.Monad
                      , Week04.Solution
+                     , Week04.SolutionContract
+                     , Week04.SolutionTrace
                      , Week04.Trace
                      , Week04.Writer
   other-modules:       Week04.Vesting
